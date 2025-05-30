@@ -1,4 +1,4 @@
-# Proyek Akhir: Menyelesaikan Permasalahan Institusi Pendidikan
+# Proyek Menyelesaikan Permasalahan Institusi Pendidikan
 
 ## Business Understanding
 
