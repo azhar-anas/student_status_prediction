@@ -74,8 +74,12 @@ curr_units_1st_grade = st.number_input("Nilai Akhir Semester 1 (0 s.d. 20)", min
 curr_units_2nd_approved = st.number_input("Jumlah SKS Lulus Semester 2", min_value=0, max_value=50, value=15, step=1)
 curr_units_2nd_grade = st.number_input("Nilai Akhir Semester 2 (0 s.d. 20)", min_value=0.0, max_value=20.0, value=10.0, step=0.1)
 
+# Mapping Course key ke dalam range 0-16 index
+course_key_to_index = {key: idx for idx, key in enumerate(sorted(course_options.keys()))}
+course_index = course_key_to_index[course_selected]
+
 input_data = [
-    course_selected,
+    course_index,
     prev_qual_grade,
     admission_grade,
     age_at_enrollment,
