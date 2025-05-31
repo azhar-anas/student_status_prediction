@@ -13,7 +13,7 @@ st.set_page_config(
 st.markdown("""
     <style>
         .block-container {
-            max-width: 57%;
+            max-width: 55%;
             padding-top: 4.5rem;
         }
         .stTabs [data-baseweb="tab-list"] button [data-testid="stMarkdownContainer"] p {
