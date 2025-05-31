@@ -13,7 +13,7 @@ st.set_page_config(
 st.markdown("""
     <style>
         .block-container {
-            max-width: 60%;
+            max-width: 50%;
             padding-top: 4.5rem;
         }
         .stTabs [data-baseweb="tab-list"] button [data-testid="stMarkdownContainer"] p {
@@ -60,7 +60,7 @@ course_options = {
     9991: "Management (evening attendance)"
 }
 
-st.title(":mortar_board: Student Status Prediction - Jaya Jaya Institute")
+st.title(":mortar_board: Student Status Prediction")
 
 st.subheader("Please enter the student data below")
 
