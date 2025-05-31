@@ -1,4 +1,4 @@
-# Final Project: Addressing Challenges in an Educational Institution
+# Addressing Challenges in an Educational Institution
 
 ## Business Understanding
 
